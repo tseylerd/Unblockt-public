@@ -63,6 +63,9 @@ Future features will depend on user feedback. Currently planned:
 - Rename Refactoring
 - Kotlin Multiplatform Support
 
+## Feedback
+Please, use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to report the feedback.
+
 ## Open source software used
 - [Kotlin](https://github.com/JetBrains/kotlin)
 - [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community)
