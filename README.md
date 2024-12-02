@@ -12,7 +12,7 @@
 ### Kotlin language support for Visual Studio Code
 This repository is made to provide documentation and collect feedback. Use GitHub Issues to report any feedback.
 
-**Extension currently is in a very early state**. It's very appreciated if you report all issues you experience if any.
+**Extension currently is in a very early stage**. It's very appreciated if you report all issues you experience if any.
 ## Installation
 1. Install the `Unblockt` extension from Visual Studio Code Marketplace
 2. Open any `.kt` or `.kts` file to activate the extension
