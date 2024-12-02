@@ -64,7 +64,7 @@ Future features will depend on user feedback. Currently planned:
 - Kotlin Multiplatform Support
 
 ## Feedback
-Please, use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to report the feedback.
+Please, use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to report any feedback.
 
 ## Open source software used
 - [Kotlin](https://github.com/JetBrains/kotlin)
