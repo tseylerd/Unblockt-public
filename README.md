@@ -12,59 +12,56 @@
 # Unblockt
 
 ### Kotlin language support for Visual Studio Code
-This repository is made to provide documentation and collect feedback. Use GitHub Issues to report any feedback.
+This repository serves as a hub for documentation and feedback. Please use GitHub Issues to share your feedback.
+**Note:** This extension is in its early stages. Your feedback is invaluable—please report any issues you encounter.
 
-**Extension currently is in a very early stage**. It's very appreciated if you report all issues you experience if any.
 ## Installation
-1. Install the `Unblockt` extension from Visual Studio Code Marketplace
-2. Open any `.kt` or `.kts` file to activate the extension
+1. Install the `Unblockt` extension from the Visual Studio Code Marketplace.
+2. Open any `.kt` or `.kts` file to activate the extension.
 
-Once extension is activated, it'll perform several steps:
- - Launch language server
- - Read project structure using Gradle
- - Index project files to provide code-insight features
+Upon activation, the extension will:
+- Launch the language server
+- Read the project structure using Gradle
+- Index project files to enable code insight features
 
-After indexes are built, extension is ready to use.
+Once indexing is complete, you're ready to code!
 
 ## Basics
-- Extension provides a widget in the bottom right corner which shows actual memory usage:
-![Memory widget](images/ui/memoryWidget.png)
-- To view available `Unblockt` actions, press the widget: it'll open list of actions at the top.
+- **Memory Widget:** A widget in the bottom right corner displays current memory usage.  
+  ![Memory widget](images/ui/memoryWidget.png)
+- **Unblockt Actions:** Click the widget to access a list of actions.
 
 ## Requirements
-- Java
-- 4G of memory minimum, 8G recommended
+- **Java**
+- **Memory:** Minimum 4GB, 8GB recommended
 
 ## Settings
-- Memory: configures heap size for language server in megabytes. Requires restart.
-![Memory settings](images/ui/memorySettings.png)
+- **Memory:** Configure the language server's heap size (in MB). Restart required.  
+  ![Memory settings](images/ui/memorySettings.png)
 
 ## Features
-- Semantic highlighting
-![Semantic highlighting](images/code/highlighting.png)
-- Code completion
-![Code completion](images/code/codeCompletion.gif)
-- Go to definition
-![Go to definition](images/code/goToDefinition.gif)
+- **Semantic Highlighting**  
+  ![Semantic highlighting](images/code/highlighting.png)
+- **Code Completion**  
+  ![Code completion](images/code/codeCompletion.gif)
+- **Go to Definition**  
+  ![Go to definition](images/code/goToDefinition.gif)
 
 ## Actions
-- `Reload Gradle project`
-  - Reads actual project structure using Gradle and applies all the changes
-- `Rebuild Indexes`
-  - Deletes current indexes and builds them from scratch
+- **Reload Gradle Project:** Updates project structure from Gradle and applies changes.
+- **Rebuild Indexes:** Clears and rebuilds project indexes.
 
 ## Limitations
-- Only Gradle project structure is supported
-- Only standard Gradle files layout is supported
-- Only Kotlin JVM target is supported
-- Code insight features for Gradle scripts are not supported
+- Only Gradle projects are supported.
+- Only the standard Gradle file layout is supported.
+- Only Kotlin JVM target is supported.
+- Code insight for Gradle scripts is not yet available.
 
 ## Roadmap
-The roadmap depends on the feedback.  
-Currently, the plan is to support at first:
-- Find usages
-- Rename refactoring
-- Kotlin Multiplatform
+Future features will depend on user feedback. Currently planned:
+- Find Usages
+- Rename Refactoring
+- Kotlin Multiplatform Support
 
 ## Open source software used
 - [Kotlin](https://github.com/JetBrains/kotlin)
