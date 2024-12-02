@@ -12,7 +12,7 @@
 # Unblockt
 
 ### Kotlin language support for Visual Studio Code
-This repository serves as a hub for documentation and feedback. Please use GitHub Issues to share your feedback.
+This repository serves as a hub for documentation and feedback. Please use GitHub Issues to share your feedback.  
 **Note:** This extension is in its early stages. Your feedback is invaluable—please report any issues you encounter.
 
 ## Installation
