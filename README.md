@@ -11,8 +11,6 @@
 
 # Unblockt
 
-# Unblockt
-
 ### Kotlin language support for Visual Studio Code
 This repository is made to provide documentation and collect feedback. Use GitHub Issues to report any feedback.
 
