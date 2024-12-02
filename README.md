@@ -12,8 +12,8 @@
 # Unblockt
 
 ### Kotlin language support for Visual Studio Code
-This repository serves as a hub for documentation and feedback. Please use GitHub Issues to share your feedback.  
-**Note:** This extension is in its early stages. Your feedback is invaluable—please report any issues you encounter.
+This repository serves as a hub for documentation and feedback. Please use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to share your feedback.  
+**Note:** This extension is in its early stages. Your feedback is invaluable—please [report](https://github.com/tseylerd/Unblockt-public/issues) any issues you encounter.
 
 ## Installation
 1. Install the `Unblockt` extension from the Visual Studio Code Marketplace.
