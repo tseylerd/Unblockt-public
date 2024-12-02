@@ -1,11 +1,15 @@
 ![Version Badge](https://img.shields.io/badge/version-0.0.1-red)
 ![License Badge](https://img.shields.io/badge/license-PolyForm_Perimeter_License_1.0.0-green)
 
-<picture style="float: left;">
-  <source width="64" height="64" media="(prefers-color-scheme: dark)" srcset="images/logo/whiteLogo.png">
-  <source width="64" height="64" media="(prefers-color-scheme: light)" srcset="images/logo/blackLogo.png">
-  <img align="left" width="64" height="64" alt="logo" src="images/logo/blackLogo.png">
-</picture> 
+<div align=left>
+  <picture>
+    <source width="128" height="128" media="(prefers-color-scheme: dark)" srcset="images/logo/whiteLogo.png">
+    <source width="128" height="128" media="(prefers-color-scheme: light)" srcset="images/logo/blackLogo.png">
+    <img width="128" height="128" alt="logo" src="images/logo/blackLogo.png">
+  </picture>
+</div>
+
+# Unblockt
 
 # Unblockt
 
