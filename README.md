@@ -12,7 +12,8 @@
 # Unblockt
 
 ### Kotlin language support for Visual Studio Code
-This repository serves as a hub for documentation and feedback. Please use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to share your feedback.  
+This repository serves as a hub for documentation and feedback. Please use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to share your feedback. 
+
 **Note:** This extension is in its early stages and does not yet support all build systems or Kotlin features.
 Currently:
 - Projects must use Gradle as the build system.
