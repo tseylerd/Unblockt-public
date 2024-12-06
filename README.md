@@ -16,8 +16,8 @@ This repository serves as a hub for documentation and feedback. Please use [GitH
 
 **Note:** This extension is in its early stages and does not yet support all build systems or Kotlin features.
 Currently:
-- Projects must use Gradle as the build system.
-- Projects must follow the basic Gradle directory layout.
+- Projects need to use Gradle as the build system.
+- Projects should follow the basic Gradle directory layout.
 - The extension works best with small projects and may be unstable or perform poorly on relatively big projects.
 - For more details, see the [limitations](#limitations) section.
 
