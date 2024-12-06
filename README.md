@@ -13,8 +13,14 @@
 
 ### Kotlin language support for Visual Studio Code
 This repository serves as a hub for documentation and feedback. Please use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to share your feedback.  
-**Note:** This extension is in its early stages. Your feedback is invaluable—please [report](https://github.com/tseylerd/Unblockt-public/issues) any issues you encounter.
+**Note:** This extension is in its early stages and does not yet support all build systems or Kotlin features.
+Currently:
+- Projects must use Gradle as the build system.
+- Projects must follow the basic Gradle directory layout.
+- The extension works best with small projects and may be unstable or perform poorly on relatively big projects.
+- For more details, see the [limitations](#limitations) section.
 
+Your feedback is invaluable—please [report](https://github.com/tseylerd/Unblockt-public/issues) any issues you encounter.
 ## Installation
 1. Install the `Unblockt` extension from the Visual Studio Code Marketplace.
 2. Open any `.kt` or `.kts` file to activate the extension.
@@ -53,18 +59,41 @@ Once indexing is complete, you're ready to code!
 
 ## Limitations
 - Only Gradle projects are supported.
-- Only the standard Gradle file layout is supported.
-- Only Kotlin JVM target is supported.
-- Code insight for Gradle scripts is not yet available.
+- Only the basic Gradle directory layout is supported:
+  - The `main` and `test` source sets must be located inside the `src` directory of the module.
+
+  **Example of a supported layout:**
+  ```
+  <project-root>
+  └── src
+      ├── main
+      │   ├── java
+      │   │   └── <source files>
+      │   └── kotlin
+      │       └── <source files>
+      └── test
+          ├── java
+          │   └── <test source files>
+          └── kotlin
+              └── <test source files>
+  ```
+- Code analysis is supported only for Kotlin code targeting the JVM.
+- Code analysis for Gradle build scripts is not available.
+- The extension works best with small projects and may be unstable or perform poorly on relatively big projects. Please report any performance issues encountered.
 
 ## Roadmap
 Future features will depend on user feedback. Currently planned:
 - Find Usages
 - Rename Refactoring
 - Kotlin Multiplatform Support
+- Standalone Language Server
 
 ## Feedback
 Please, use [GitHub Issues](https://github.com/tseylerd/Unblockt-public/issues) to report any feedback.
+
+## Our Goal
+We want developers to enjoy working with Kotlin without having to change their habits.  
+To achieve this, we aim to create another high-quality tool for Kotlin development, including a standalone Language Server implementation.
 
 ## Open source software used
 - [Kotlin](https://github.com/JetBrains/kotlin)
